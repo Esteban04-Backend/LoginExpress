@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login API</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="login-card">
+
+            <h1>Iniciar Sesión</h1>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+                    <label>Usuario</label>
+                    <input
+                        type="text"
+                        id="usuario"
+                        placeholder="Ingrese su usuario"
+                        required>
+                </div>
+
+                <div class="input-group">
+                    <label>Contraseña</label>
+                    <input
+                        type="password"
+                        id="clave"
+                        placeholder="Ingrese su contraseña"
+                        required>
+                </div>
+
+                <button type="submit">
+                    Ingresar
+                </button>
+
+            </form>
+            <p>
+
+            ¿No tienes cuenta?
+
+            <a href="register.html">
+
+                Registrarse
+
+            </a>
+
+             </p>
+            <div id="mensaje"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
